@@ -1,0 +1,122 @@
+@font-face {
+	font-family: supreme-font;
+	src: url('supreme-font.otf');
+}
+
+@font-face {
+	font-family: supreme-font-text;
+	src: url('Courier-Prime.ttf');
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.big-box {
+	width: 468px; 
+	height: 100%; 
+
+/*	position: relative;
+	top: 50px;
+	left: 50px;
+*/
+	
+	margin: 100px auto;
+
+}
+
+.supreme-title-box {
+
+	width: 468px;
+	height: 168px;
+
+	background-color: red;
+}
+
+.supreme-title {
+	position: relative;
+	top: 20px;
+
+	font-family: supreme-font;
+	color: #FFFFFF;
+	font-size: 120px;
+	letter-spacing: 5px;
+	text-align: center; 
+}
+
+.supreme-text {
+	font-family: supreme-font-text; 
+	font-size: 16px;
+}
+
+.text-box {
+	position: relative;
+	top: 30px;
+	width: 468px;
+}
+
+.nav-bar {
+	position: relative;
+	top: 20px;
+}
+
+.nav-selection {
+	display: block;
+	margin-right: 20px;
+	float: left;
+	text-align: center;
+}
+
+.nav-list li a {
+	text-decoration: none;
+	color: black;
+}
+
+.nav-list li a:hover {
+	background-color: red;
+	color: white;
+}
+
+.bottom {
+	position: relative; 
+	top: 60px;
+
+	text-align: center;
+}
+
+.l-bottom {
+	margin-top: 10px;
+}
+
+.big-font {
+	font-size: 25px;
+}
+
+table {
+    font-family: supreme-font-text; 
+    border-collapse: collapse;
+    width: 100%;
+    	margin-bottom: 100px;
+
+}
+
+td, th {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+
+
+
+
+
+
+
+
+
+
